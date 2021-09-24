@@ -1,0 +1,4 @@
+<apex:page standardStylesheets="true" showHeader="true" sidebar="true" standardController="vlocity_ins__OmniScript__c" extensions="vlocity_ins.PlatformVFPageControllerBase"
+    docType="html-5.0">
+    <c:EmbeddingBusinessProcessComponent />
+</apex:page>
