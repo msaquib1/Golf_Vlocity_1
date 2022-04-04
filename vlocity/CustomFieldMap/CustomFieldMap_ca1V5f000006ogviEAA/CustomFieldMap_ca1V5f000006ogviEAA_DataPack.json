@@ -1,0 +1,12 @@
+{
+    "%vlocity_namespace%__DestinationFieldName__c": "Fax",
+    "%vlocity_namespace%__DestinationSObjectType__c": "Account",
+    "%vlocity_namespace%__SourceFieldName__c": "Fax",
+    "%vlocity_namespace%__SourceFieldSObjectType__c": "",
+    "%vlocity_namespace%__SourceFieldType__c": "phone",
+    "%vlocity_namespace%__SourceSObjectType__c": "Account",
+    "Name": "CustomFieldMap__ca1V5f000006ogviEAA",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__CustomFieldMap__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__CustomFieldMap__c/CustomFieldMap__ca1V5f000006ogviEAA"
+}
