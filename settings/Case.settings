@@ -11,13 +11,14 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>arvlocity8@gmail.com</defaultCaseOwner>
+    <defaultCaseOwner>vlocty8@copado.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>arvlocity8@gmail.com</defaultCaseUser>
+    <defaultCaseUser>vlocty8@copado.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
     <enableCaseFeed>true</enableCaseFeed>
+    <enableCaseSwarming>false</enableCaseSwarming>
     <enableCollapseEmailThread>true</enableCollapseEmailThread>
     <enableEarlyEscalationRuleTriggers>false</enableEarlyEscalationRuleTriggers>
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
@@ -29,7 +30,6 @@
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
     <enableSuggestedSolutions>true</enableSuggestedSolutions>
     <escalateCaseBefore>false</escalateCaseBefore>
-    <keepRecordTypeOnAssignmentRule>true</keepRecordTypeOnAssignmentRule>
     <notifyContactOnCaseComment>false</notifyContactOnCaseComment>
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>

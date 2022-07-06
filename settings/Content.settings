@@ -18,6 +18,6 @@
     <enableSiteGuestUserToUploadFiles>false</enableSiteGuestUserToUploadFiles>
     <enableUploadFilesOnAttachments>false</enableUploadFilesOnAttachments>
     <setValidContentTypeForAtchDocDownload>false</setValidContentTypeForAtchDocDownload>
-    <skipContentAssetTriggers>true</skipContentAssetTriggers>
+    <skipContentAssetTriggers>false</skipContentAssetTriggers>
     <skipContentAssetTriggersOnDeploy>true</skipContentAssetTriggersOnDeploy>
 </ContentSettings>

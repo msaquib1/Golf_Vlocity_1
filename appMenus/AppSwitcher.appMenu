@@ -65,10 +65,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningBolt</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__AllTabSet</name>
         <type>CustomApplication</type>
     </appMenuItems>
@@ -77,27 +73,11 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>vlocity_ins__VlocityConsoleApp</name>
+        <name>standard__LightningBolt</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>vlocity_ins__VlocityHealthInsurance</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>vlocity_ins__Vlocity_Administration</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>vlocity_ins__Vlocity_Digital_Studio</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>vlocity_ins__Vlocity_Insurance</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>vlocity_ins__Vlocity_LWC</name>
+        <name>omnistudio__Vlocity_Digital_Studio</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -105,8 +85,12 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>VBT_Connected</name>
-        <type>ConnectedApp</type>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__ExpressionSetConsole</name>
+        <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
         <name>standard__LightningScheduler</name>

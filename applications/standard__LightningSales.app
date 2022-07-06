@@ -5,10 +5,11 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>Template_Version</tabs>
+    <tabs>standard-WaveHome</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Quote</tabs>
     <tabs>standard-Lead</tabs>
