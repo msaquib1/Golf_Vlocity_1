@@ -1,4 +1,5 @@
 {
+    "Description": "test os 22",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
@@ -6,7 +7,7 @@
     "IsTestProcedure": false,
     "IsWebCompEnabled": true,
     "Language": "English",
-    "Name": "test os 11",
+    "Name": "test os 22",
     "OmniProcessElement": "Reusable_Sample_English_Element_Step1.json",
     "OmniProcessType": "OmniScript",
     "PropertySetConfig": "Reusable_Sample_English_PropertySetConfig.json",
@@ -15,5 +16,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/Reusable/Sample/English",
-    "WebComponentKey": "e695e523-5833-796f-decd-a613179d0aba"
+    "WebComponentKey": "460598d3-5be4-89cf-9e59-58a647854069"
 }
