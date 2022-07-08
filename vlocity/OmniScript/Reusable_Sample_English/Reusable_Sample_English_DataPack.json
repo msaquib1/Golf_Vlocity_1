@@ -1,22 +1,13 @@
 {
-    "Description": "sample reusable OmniScript",
     "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
     "IsIntegrationProcedure": false,
     "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": true,
+    "IsOmniScriptEmbeddable": false,
     "IsTestProcedure": false,
     "IsWebCompEnabled": true,
     "Language": "English",
-    "Name": "Company Mailing Address",
-    "OmniProcessElement": [
-        "Reusable_Sample_English_Element_DataRaptorExtractAction1.json",
-        "Reusable_Sample_English_Element_StepAddress.json",
-        "Reusable_Sample_English_Element_AccountMailingStreet.json",
-        "Reusable_Sample_English_Element_AccountMailingCity.json",
-        "Reusable_Sample_English_Element_AccountMailingState.json",
-        "Reusable_Sample_English_Element_AccountMailingPostalCode.json",
-        "Reusable_Sample_English_Element_AccountMailingCountry.json"
-    ],
+    "Name": "test os 11",
+    "OmniProcessElement": "Reusable_Sample_English_Element_Step1.json",
     "OmniProcessType": "OmniScript",
     "PropertySetConfig": "Reusable_Sample_English_PropertySetConfig.json",
     "SubType": "Sample",
@@ -24,5 +15,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/Reusable/Sample/English",
-    "WebComponentKey": "74c6e411-a174-1fa7-e2df-465bba8300e5"
+    "WebComponentKey": "e695e523-5833-796f-decd-a613179d0aba"
 }
