@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>test 11</members>
-        <name>DataRaptor</name>
-    </types>
-    <types>
-        <members>team_editAccount_English</members>
-        <name>OmniScript</name>
+        <members>reusableSampleEnglish</members>
+        <name>LightningComponentBundle</name>
     </types>
     <version>55.0</version>
 </Package>
