@@ -3,7 +3,7 @@
     "IsOmniScriptEmbeddable": false,
     "Name": "Step1",
     "OmniProcessId": {
-        "Name": "test os 11",
+        "Name": "test os 22",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
         "VlocityMatchingRecordSourceKey": "OmniProcess/Reusable/Sample/English",
         "VlocityRecordSObjectType": "OmniProcess"
