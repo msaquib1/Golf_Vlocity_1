@@ -1,7 +1,7 @@
 {
     "IsActive": true,
     "IsOmniScriptEmbeddable": false,
-    "Name": "Step1",
+    "Name": "not",
     "OmniProcessId": {
         "Name": "test os 2222222",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
@@ -34,7 +34,7 @@
             "remoteTimeout": 30000,
             "typeFilter": ""
         },
-        "label": "Step 1",
+        "label": "yet",
         "message": {
         },
         "nextLabel": "Next",
@@ -61,5 +61,5 @@
     "Type": "Step",
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Reusable/Sample/English/Step1"
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Reusable/Sample/English/not"
 }
