@@ -7,8 +7,12 @@
     "IsTestProcedure": false,
     "IsWebCompEnabled": true,
     "Language": "English",
-    "Name": "test os 22",
-    "OmniProcessElement": "Reusable_Sample_English_Element_Step1.json",
+    "Name": "test os 2222222",
+    "OmniProcessElement": [
+        "Reusable_Sample_English_Element_Step1.json",
+        "Reusable_Sample_English_Element_not.json",
+        "Reusable_Sample_English_Element_deployed.json"
+    ],
     "OmniProcessType": "OmniScript",
     "PropertySetConfig": "Reusable_Sample_English_PropertySetConfig.json",
     "SubType": "Sample",
@@ -16,5 +20,5 @@
     "VlocityDataPackType": "SObject",
     "VlocityRecordSObjectType": "OmniProcess",
     "VlocityRecordSourceKey": "OmniProcess/Reusable/Sample/English",
-    "WebComponentKey": "84215840-f3a8-2d25-e2b0-275fd37770d9"
+    "WebComponentKey": "beb0458a-2b87-7106-42b1-55c99a65bdf8"
 }
