@@ -1,7 +1,7 @@
 import { api, track } from 'lwc';
-import OmniscriptHeader from 'omnistudio/omniscriptHeader';
-import { isOffPlatform, setConnection, getConnection } from 'omnistudio/omniscriptRestApi';
-import { RUN_MODES, registerNs } from 'omnistudio/omniscriptInternalUtils';
+import OmniscriptHeader from 'vlocity_ins/omniscriptHeader';
+import { isOffPlatform, setConnection, getConnection } from 'vlocity_ins/omniscriptRestApi';
+import { RUN_MODES, registerNs } from 'vlocity_ins/omniscriptInternalUtils';
 import { OMNIDEF } from './teamUpdateAccountPrimaryContactEnglish_def.js';
 import tmpl from './teamUpdateAccountPrimaryContactEnglish.html';
 import tmpl_nds from './teamUpdateAccountPrimaryContactEnglish_nds.html';
@@ -22,7 +22,6 @@ export default class teamUpdateAccountPrimaryContactEnglish extends OmniscriptHe
     @api inlineLabel;
     @api inlineVariant;
     @api layout;
-    @api flexipageRegionWidth;
     @api recordId;
     /**
      * Exposing dir (direction) property in order to allow users to manually specify the direction

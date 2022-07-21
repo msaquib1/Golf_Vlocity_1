@@ -20,6 +20,7 @@
                     <value>5</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -29,6 +30,7 @@
                     <value>StateRuleService</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:stateTransition</componentName>
+                <identifier>stateTransition</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -38,6 +40,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListQuickLinksContainer</componentName>
+                <identifier>force_relatedListQuickLinksContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
@@ -51,6 +54,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:insContract</componentName>
+                <identifier>insContract</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-dj4l868me46</name>
@@ -72,6 +76,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-c25f7311-db64-4ae5-a398-b3f0fa2688c8</name>
@@ -89,6 +94,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -106,6 +112,7 @@
                     <value>Plans</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -119,6 +126,7 @@
                     <value>Related</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab2</identifier>
             </componentInstance>
         </itemInstances>
         <name>maintabs</name>
@@ -132,6 +140,7 @@
                     <value>maintabs</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
@@ -145,6 +154,7 @@
                     <value>StateRuleService</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:rulesLog</componentName>
+                <identifier>rulesLog</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-637c6f68-330e-43a4-a00f-3dca65ff4d07</name>
@@ -162,6 +172,7 @@
                     <value>Rules Log</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab3</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-fc45f8f2-3401-448e-8e7b-4145de1a7105</name>
@@ -175,6 +186,7 @@
                     <value>Facet-fc45f8f2-3401-448e-8e7b-4145de1a7105</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset2</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>
@@ -184,6 +196,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-41e22360-2e7e-4ae4-8de4-d5c8597b09f7</name>

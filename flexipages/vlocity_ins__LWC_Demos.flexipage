@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:demolwc</componentName>
+                <identifier>demolwc</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

@@ -4,6 +4,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Vlocity Insurance</label>
     <logo>vlocity_ins__VlocityResources/vlocity_ins__InsuranceLogo.gif</logo>
     <tabs>standard-Account</tabs>

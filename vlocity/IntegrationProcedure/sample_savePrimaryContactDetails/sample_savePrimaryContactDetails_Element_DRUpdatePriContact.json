@@ -1,14 +1,12 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "DRUpdatePriContact",
-    "OmniProcessId": {
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "Sample Save Primary Contact Details",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/savePrimaryContactDetails/Procedure",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/savePrimaryContactDetails/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "PropertySetConfig": {
+    "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
         },
@@ -17,7 +15,7 @@
         "bundle": "sampleUpdatePriContact",
         "chainOnStep": false,
         "disOnTplt": false,
-        "executionConditionalFormula": "RadioPriContact==\"Update\"",
+        "executionConditionalFormula": "StepContacts:RadioPriContact==\"Update\"",
         "failOnStepError": true,
         "failureConditionalFormula": "",
         "failureResponse": {
@@ -33,8 +31,10 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Post Action",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DataRaptor Post Action",
+    "Name": "DRUpdatePriContact",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/savePrimaryContactDetails/Procedure/DRUpdatePriContact"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/savePrimaryContactDetails/Procedure/DRUpdatePriContact"
 }

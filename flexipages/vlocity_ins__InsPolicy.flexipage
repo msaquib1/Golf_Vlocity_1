@@ -20,6 +20,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -34,6 +35,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:insPolicy</componentName>
+                <identifier>insPolicy</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-8151a93c-2a6e-47ae-a7ef-a831edf5117d</name>
@@ -55,6 +57,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -77,6 +80,7 @@
                     <value>Coverages</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -90,6 +94,7 @@
                     <value>Insured Item</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -103,6 +108,7 @@
                     <value>Revenue Schedule</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -120,6 +126,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -133,6 +140,7 @@
                     <value>Standard.Tab.relatedLists</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>relatedListsTab</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -147,6 +155,7 @@
                     <value>maintabs</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -157,6 +166,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insPolicyInsuredItems</componentName>
+                <identifier>insPolicyInsuredItems</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-512748f0-87f9-46eb-a357-d647f6f13ef6</name>
@@ -166,6 +176,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insRevenueCharts</componentName>
+                <identifier>insRevenueCharts</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-rk0gl2w7gl</name>
@@ -175,6 +186,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
@@ -185,6 +197,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insPolicyTermsStanding</componentName>
+                <identifier>insPolicyTermsStanding</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

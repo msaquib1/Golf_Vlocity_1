@@ -1,24 +1,23 @@
 {
-    "CustomJavaScript": "{}",
-    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": true,
-    "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": false,
-    "IsTestProcedure": false,
-    "IsWebCompEnabled": false,
-    "Language": "Procedure",
-    "Name": "Team  Stub Get Case List",
-    "OmniProcessElement": [
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
         "team_getCaseList_Element_SetValues.json",
         "team_getCaseList_Element_ResponseAction.json"
     ],
-    "OmniProcessKey": "team_getCaseList",
-    "OmniProcessType": "Integration Procedure",
-    "PropertySetConfig": "team_getCaseList_PropertySetConfig.json",
-    "SubType": "getCaseList",
-    "Type": "team",
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "team_getCaseList",
+    "%vlocity_namespace%__PropertySet__c": "team_getCaseList_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "getCaseList",
+    "%vlocity_namespace%__Type__c": "team",
+    "Name": "Team  Stub Get Case List",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/team/getCaseList/Procedure",
-    "WebComponentKey": "76b1f48a-eb8a-89fc-d2e5-75728cb37d9f"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/team/getCaseList/Procedure"
 }

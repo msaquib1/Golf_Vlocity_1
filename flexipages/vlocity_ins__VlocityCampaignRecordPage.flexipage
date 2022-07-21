@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -17,6 +18,7 @@
                     <value>vlocity_ins__CampaignCallList</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:visualforcePage</componentName>
+                <identifier>flexipage_visualforcePage</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

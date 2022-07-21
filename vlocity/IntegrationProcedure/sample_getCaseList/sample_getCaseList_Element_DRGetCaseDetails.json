@@ -1,14 +1,12 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "DRGetCaseDetails",
-    "OmniProcessId": {
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "Sample Get Case List Layout",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/getCaseList/Procedure",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/getCaseList/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "PropertySetConfig": {
+    "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
         },
@@ -40,8 +38,10 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Extract Action",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
+    "Name": "DRGetCaseDetails",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/getCaseList/Procedure/DRGetCaseDetails"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/getCaseList/Procedure/DRGetCaseDetails"
 }

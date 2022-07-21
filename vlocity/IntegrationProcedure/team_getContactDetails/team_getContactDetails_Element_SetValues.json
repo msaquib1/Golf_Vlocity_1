@@ -1,23 +1,20 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "SetValues",
-    "OmniProcessId": {
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "Team Stub Get Contact Details",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/team/getContactDetails/Procedure",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/team/getContactDetails/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "PropertySetConfig": {
+    "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "chainOnStep": false,
         "disOnTplt": false,
         "elementValueMap": {
-            "Email": "aholder@placeholderinc.com",
-            "FirstName": "Ana",
-            "Id": "0033i0000029Wp0ZZZ",
-            "LastName": "Holder",
-            "Phone": "(123) 123-6789"
+            "Contact:Email": "aholder@placeholderinc.com",
+            "Contact:Id": "0033i0000029Wp0ZZZ",
+            "Contact:Name": "Ana Holder",
+            "Contact:Phone": "(123) 123-6789"
         },
         "executionConditionalFormula": "",
         "failOnStepError": true,
@@ -29,8 +26,10 @@
         "sendJSONPath": "",
         "show": null
     },
-    "Type": "Set Values",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Set Values",
+    "Name": "SetValues",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/team/getContactDetails/Procedure/SetValues"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/team/getContactDetails/Procedure/SetValues"
 }

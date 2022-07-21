@@ -1,8 +1,8 @@
 {
-    "AccountId": "0013i0000030LDyZZZ",
-    "AccountName": "PlaceHolder Inc",
-    "AccountPhone": "(123) 123-4567",
-    "AccountPostalCode": 12345,
-    "AccountPriContact": "Ana Holder",
-    "AccountWebsite": "www.placeholderinc.com"
+    "Id": "001f400000MjEi4AAF",
+    "StepAccount": {
+        "Name": "Acme",
+        "Phone": "(212) 154-6450",
+        "Website": "www.acme.com"
+    }
 }

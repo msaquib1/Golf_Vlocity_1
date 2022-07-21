@@ -16,6 +16,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-37fced25-0b9e-4fa0-ab17-de1141a10c87</name>
@@ -33,6 +34,7 @@
                     <value>Standard.Tab.relatedLists</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>relatedListsTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -50,6 +52,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -67,6 +70,7 @@
                     <value>Census Members</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-71895cb6-8a4b-4d12-be38-eeb715ecf777</name>
@@ -88,6 +92,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -97,6 +102,7 @@
                     <value>Facet-71895cb6-8a4b-4d12-be38-eeb715ecf777</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
@@ -106,6 +112,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-b85a895a-b01d-4706-b6ab-8451d1374e87</name>
@@ -115,6 +122,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insCensus</componentName>
+                <identifier>insCensus</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-78146d8d-46db-469e-b02e-197336c52ed7</name>

@@ -1,18 +1,22 @@
 {
-    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": false,
-    "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": false,
-    "IsTestProcedure": false,
-    "IsWebCompEnabled": true,
-    "Language": "English",
-    "Name": "Team Starter Edit Case",
-    "OmniProcessType": "OmniScript",
-    "PropertySetConfig": "team_editCase_English_PropertySetConfig.json",
-    "SubType": "editCase",
-    "Type": "team",
+    "%vlocity_namespace%__AdditionalInformation__c": "DGV Test",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
+        "team_editCase_English_Element_Step1.json",
+        "team_editCase_English_Element_Step2.json"
+    ],
+    "%vlocity_namespace%__IsLwcEnabled__c": true,
+    "%vlocity_namespace%__IsProcedure__c": false,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "English",
+    "%vlocity_namespace%__OmniProcessType__c": "OmniScript",
+    "%vlocity_namespace%__PropertySet__c": "team_editCase_English_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "editCase",
+    "%vlocity_namespace%__Type__c": "team",
+    "Name": "DGV test OMNI",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/team/editCase/English",
-    "WebComponentKey": "a33e92dc-ecd9-f3c4-2fd5-1b5a44563d82"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/team/editCase/English"
 }

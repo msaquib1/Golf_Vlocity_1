@@ -11,11 +11,11 @@
                     <p class="bold">{_errorMsg}</p>
                     <dl class="slds-dl_inline" if:false={_isActiveOs}>
                         <dt class="slds-dl_inline__label"><strong>{allCustomLabelsUtil.OmniScriptType}:</strong></dt>
-                        <dd class="slds-dl_inline__detail"></dd>
+                        <dd class="slds-dl_inline__detail">team</dd>
                         <dt class="slds-dl_inline__label"><strong>{allCustomLabelsUtil.OmniScriptSubType}:</strong></dt>
-                        <dd class="slds-dl_inline__detail"></dd>
+                        <dd class="slds-dl_inline__detail">editAccount</dd>
                         <dt class="slds-dl_inline__label"><strong>{allCustomLabelsUtil.OmniScriptLang}:</strong></dt>
-                        <dd class="slds-dl_inline__detail"></dd>
+                        <dd class="slds-dl_inline__detail">English</dd>
                     </dl>
                     <p class="footer-message">{allCustomLabelsUtil.OmniScriptNotFound2}</p>
                 </lightning-layout-item>
@@ -57,7 +57,15 @@
                                             layout={layout}
                                             script-header-def={scriptHeaderDef}>
                                 </vlocity_ins-omniscript-step-chart>
-                                
+                                <template if:true={_isKbEnabledOnScript}>
+                                <vlocity_ins-omniscript-knowledge-base knowledge-options={kbOptions}
+                                                             data-omni-key='omniscriptKnowledgeBase'
+                                                             layout={layout}
+                                                             data-stepchart-placement={_stepChartPlacement}
+                                                             omniscript-key={scriptHeaderDef.omniscriptKey}
+                                                             kb-label={knowledgeLabel}>
+                                </vlocity_ins-omniscript-knowledge-base>
+                            </template>
                                 <template if:true={isPageLoading}>
                                     <vlocity_ins-spinner variant="brand"
                                                         alternative-text="Loading..."
@@ -67,7 +75,7 @@
                                                         size="medium">
                                     </vlocity_ins-spinner>
                                 </template>
-                                <template for:each={jsonDef.children} for:item="item" for:index="idx"></template>
+                                <template for:each={jsonDef.children} for:item="item" for:index="idx"><vlocity_ins-omniscript-step if:true={item.bStep} key={item.lwcId} json-def={item} data-omni-key={item.name} json-data={jsonDef.response} json-data-str={jsonDataStr} layout={layout} resume={resume} script-header-def={scriptHeaderDef} run-mode={runMode} seed-json={jsonDef.propSetMap.seedDataJSON}></vlocity_ins-omniscript-step></template>
                             </div>
                             <div class="nds-m-around_small">
                                 <div class="nds-grid nds-grid_align-center">

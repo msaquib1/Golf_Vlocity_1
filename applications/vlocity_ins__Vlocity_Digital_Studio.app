@@ -16,6 +16,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>OmniStudio</label>
     <navType>Console</navType>
     <tabs>vlocity_ins__OmniScriptHome</tabs>
