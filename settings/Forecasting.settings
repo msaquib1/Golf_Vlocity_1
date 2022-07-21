@@ -224,23 +224,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -278,11 +278,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -431,23 +431,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -485,11 +485,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -642,23 +642,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -697,11 +697,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -850,23 +850,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -904,11 +904,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1061,23 +1061,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1116,11 +1116,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1269,23 +1269,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1323,11 +1323,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1480,23 +1480,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1535,11 +1535,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1688,23 +1688,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1742,11 +1742,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1762,7 +1762,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>false</hasProductFamily>
         <isAmount>true</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
         <masterLabel>Opportunity Revenue Schedule Date</masterLabel>
         <name>OpportunityRevenueScheduleDate</name>
@@ -1899,23 +1899,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1954,11 +1954,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1974,7 +1974,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>false</hasProductFamily>
         <isAmount>false</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
         <masterLabel>Opportunity Quantity Schedule Date</masterLabel>
         <name>OpportunityQuantityScheduleDate</name>
@@ -2107,23 +2107,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2161,11 +2161,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2181,7 +2181,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>true</hasProductFamily>
         <isAmount>true</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
         <masterLabel>Line Item Revenue Schedule Date</masterLabel>
         <name>LineItemRevenueScheduleDate</name>
@@ -2318,23 +2318,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2373,11 +2373,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2393,7 +2393,7 @@
         <forecastingDateType>ScheduleDate</forecastingDateType>
         <hasProductFamily>true</hasProductFamily>
         <isAmount>false</isAmount>
-        <isAvailable>false</isAvailable>
+        <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
         <masterLabel>Line Item Quantity Schedule Date</masterLabel>
         <name>LineItemQuantityScheduleDate</name>
@@ -2526,23 +2526,23 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECme</field>
+            <field>00N5i00000CEAJN</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmf</field>
+            <field>00N5i00000CEAJO</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmg</field>
+            <field>00N5i00000CEAJP</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmh</field>
+            <field>00N5i00000CEAJQ</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJR</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2580,11 +2580,11 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5i00000CECme</field>
-            <field>00N5i00000CECmf</field>
-            <field>00N5i00000CECmg</field>
-            <field>00N5i00000CECmh</field>
-            <field>00N5i00000CECmi</field>
+            <field>00N5i00000CEAJN</field>
+            <field>00N5i00000CEAJO</field>
+            <field>00N5i00000CEAJP</field>
+            <field>00N5i00000CEAJQ</field>
+            <field>00N5i00000CEAJR</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>
