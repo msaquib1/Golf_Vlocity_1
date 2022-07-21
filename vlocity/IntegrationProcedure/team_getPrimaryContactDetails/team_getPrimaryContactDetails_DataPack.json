@@ -1,24 +1,23 @@
 {
-    "CustomJavaScript": "{}",
-    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": true,
-    "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": false,
-    "IsTestProcedure": false,
-    "IsWebCompEnabled": false,
-    "Language": "Procedure",
-    "Name": "Team Stub Get Primary Contact Details",
-    "OmniProcessElement": [
+    "%vlocity_namespace%__CustomJavaScript__c": "{}",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
         "team_getPrimaryContactDetails_Element_SetValues.json",
         "team_getPrimaryContactDetails_Element_ResponseAction.json"
     ],
-    "OmniProcessKey": "team_getPrimaryContactDetails",
-    "OmniProcessType": "Integration Procedure",
-    "PropertySetConfig": "team_getPrimaryContactDetails_PropertySetConfig.json",
-    "SubType": "getPrimaryContactDetails",
-    "Type": "team",
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "team_getPrimaryContactDetails",
+    "%vlocity_namespace%__PropertySet__c": "team_getPrimaryContactDetails_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "getPrimaryContactDetails",
+    "%vlocity_namespace%__Type__c": "team",
+    "Name": "Team  Stub Get Primary Contact Details",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/team/getPrimaryContactDetails/Procedure",
-    "WebComponentKey": "e52b0260-8c9b-a5d9-c5bc-9ccb68251636"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/team/getPrimaryContactDetails/Procedure"
 }

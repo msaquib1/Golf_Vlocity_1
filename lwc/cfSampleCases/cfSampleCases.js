@@ -1,48 +1,30 @@
-import { FlexCardMixin } from "omnistudio/flexCardMixin";
-    import {interpolateWithRegex, interpolateKeyValue, fetchCustomLabels, loadCssFromStaticResource } from "omnistudio/flexCardUtility";
+import { FlexCardMixin } from "vlocity_ins/flexCardMixin";
+    import {interpolateWithRegex, interpolateKeyValue, fetchCustomLabels } from "vlocity_ins/flexCardUtility";
     
           import { LightningElement, api, track } from "lwc";
           
-          import pubsub from "omnistudio/pubsub";
+
+          import pubsub from "vlocity_ins/pubsub";
           
           import data from "./definition";
-          
-          import styleDef from "./styleDefinition";
-              
           export default class cfSampleCases extends FlexCardMixin(LightningElement){
               @api debug;
               @api recordId;
-              @api objectApiName;
               
               @track record;
-              
 
-              _regexPattern = /\{([a-zA-Z.0-9_]+)\}/g; //for {} fields by default
-              
-              pubsubEvent = [];
-              customEvent = [];
+              _regexPattern = /\{([a-zA-Z.0-9_]*)\}/g; //for {} fields by default
               
               connectedCallback() {
                 super.connectedCallback();
-                this.registerEvents();
-                this.setStyleDefinition(styleDef);
-                data.Session = {} //reinitialize on reload
-                
-                
+                this.registerPubSub();
                 
                 this.setDefinition(data);
                 
                 
               }
               
-              disconnectedCallback(){
-                super.disconnectedCallback();
-                    
-                    
 
-                  this.unregisterEvents();
-              }
-                  
               executeAction(event) {
                 let dataset = event.currentTarget.dataset;
                 if (dataset && dataset.onchange === 'setValue' ) {
@@ -61,36 +43,51 @@ import { FlexCardMixin } from "omnistudio/flexCardMixin";
                 event.stopPropagation();
               }
 
-              registerEvents() {
+              registerPubSub() {
                 
               }
 
-              unregisterEvents(){
-                
-              }
-            
-              renderedCallback() {
-                super.renderedCallback();
-                
-              }
-
-              handleEventAction(eventObj, eventIndex, event) {
-                eventObj.actionList = eventObj.actionList || (eventObj.actionData ? [eventObj.actionData] : []);
-                let stateIndex = 0;
-                if (eventObj.eventtype === 'event' && event?.target){
-                  if(this.elementIndex && event?.target?.classList.contains("execute-action")) {
-                    stateIndex = this.elementIndex;
-                  } else {
-                    const stateElement = event.target.closest(".cf-vlocity-state")
-                     ? event.target.closest(".cf-vlocity-state")
-                     : null;
-                    if (stateElement?.dataset.rindex) {
-                    stateIndex = parseInt(stateElement.dataset.rindex, 10);
-                    }
+              handleEventAction(actionObj, index, event) {
+                this.action = {};
+                let fromActionObj = actionObj.eventtype === "event" ? event.detail : event;
+                actionObj = interpolateWithRegex(
+                  actionObj,
+                  {action : fromActionObj},
+                  this._regexPattern
+                );
+                if(actionObj.actionData) {
+                  actionObj.actionData = interpolateKeyValue(actionObj.actionData, {action : fromActionObj});
+                }
+                if(fromActionObj) {
+                  this.action = fromActionObj;
+                }
+                this.action["listener"+index] = fromActionObj || true;
+                let eve = {
+                  currentTarget : {
+                    action : actionObj
                   }
                 }
-                if(eventObj.actionList && eventObj.actionList.length > 0){
-                  this.fireMultipleActionRecursively(eventObj, 0, null, eventIndex, event, stateIndex, data);
+                this.elementIndex = 0;
+                if(typeof actionObj.recordIndex !== "undefined") {
+                  this.elementIndex = parseInt(actionObj.recordIndex, 10);
                 }
+                if(actionObj.eventtype === "event") {
+                  let stateElement =
+                      event.target && event.target.closest(".cf-vlocity-state")
+                        ? event.target.closest(".cf-vlocity-state")
+                        : null;
+                  if(stateElement && stateElement.dataset.rindex) {
+                    this.elementIndex = parseInt(stateElement.dataset.rindex,10);
+                  }
+                  eve.currentTarget.action.recordIndex = this.elementIndex;
+                  event.stopPropagation();
+                }
+                if(this.records && this.records.length > 0) {
+                  eve.currentTarget.record = this.records[this.elementIndex];
+                }
+                let ele = this.template.querySelector(".action-trigger");
+
+                ele.executeAction(eve, this.card);
               }
+
           }

@@ -20,6 +20,7 @@
                     <value>5</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
@@ -29,6 +30,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -38,6 +40,7 @@
                     <value>ADVGRID</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>detailTabContent</name>
@@ -51,6 +54,7 @@
                     <value>claimsAddPayeeEnglish</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:insClaimItems</componentName>
+                <identifier>insClaimItems</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-dce0a3cb-1f16-4982-892c-690ee4532426</name>
@@ -72,6 +76,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-75c0c6d3-2293-48d7-b5ac-672872748210</name>
@@ -93,6 +98,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -106,6 +112,7 @@
                     <value>Coverages</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -119,6 +126,7 @@
                     <value>Claim Participants</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -132,6 +140,7 @@
                     <value>Financials</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -145,6 +154,7 @@
                     <value>Standard.Tab.relatedLists</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>relatedListsTab</identifier>
             </componentInstance>
         </itemInstances>
         <name>maintabs</name>
@@ -158,6 +168,7 @@
                     <value>maintabs</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
@@ -179,6 +190,7 @@
                     <value>Standard.Tab.summary</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>summaryTab</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-e7521270-73c8-4e5e-a993-4d241b04c304</name>
@@ -192,6 +204,7 @@
                     <value>Facet-e7521270-73c8-4e5e-a993-4d241b04c304</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset2</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>
@@ -201,6 +214,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insPolicy</componentName>
+                <identifier>insPolicy</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-hy9vh9efx9</name>
@@ -210,6 +224,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insClaimParticipants</componentName>
+                <identifier>insClaimParticipants</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-c1390c3e-3611-4bce-8cf3-0b3a38895cbe</name>
@@ -219,11 +234,13 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insPolicyTermsStanding</componentName>
+                <identifier>insPolicyTermsStanding</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:insClaimItemsChart</componentName>
+                <identifier>insClaimItemsChart</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-94dc5c45-958b-4808-b724-256181ecbd5f</name>

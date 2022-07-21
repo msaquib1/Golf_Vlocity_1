@@ -20,6 +20,7 @@
                     <value>5</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -29,6 +30,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListQuickLinksContainer</componentName>
+                <identifier>force_relatedListQuickLinksContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
@@ -46,6 +48,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:insQuote</componentName>
+                <identifier>insQuote</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-6cef33fc-2540-430f-8401-0ee12a4d8a98</name>
@@ -55,6 +58,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -64,6 +68,7 @@
                     <value>ADVGRID</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
+                <identifier>force_relatedListContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>detailTabContent</name>
@@ -85,6 +90,7 @@
                     <value>Quote LWC</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -102,6 +108,7 @@
                     <value>Standard.Tab.detail</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>detailTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -115,6 +122,7 @@
                     <value>Standard.Tab.activity</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>activityTab</identifier>
             </componentInstance>
         </itemInstances>
         <name>maintabs</name>
@@ -128,6 +136,7 @@
                     <value>InsuranceRuleService</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:stateTransition</componentName>
+                <identifier>stateTransition</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -137,6 +146,7 @@
                     <value>maintabs</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
@@ -150,6 +160,7 @@
                     <value>StateRuleService</value>
                 </componentInstanceProperties>
                 <componentName>vlocity_ins:rulesLog</componentName>
+                <identifier>rulesLog</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-1a0479b5-1669-493c-b789-4ebca10a68d7</name>
@@ -171,6 +182,7 @@
                     <value>Rules Log</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
+                <identifier>customTab2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-bf6b2eaa-0055-4c55-896a-382aff8444f6</name>
@@ -184,6 +196,7 @@
                     <value>Facet-bf6b2eaa-0055-4c55-896a-382aff8444f6</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
+                <identifier>flexipage_tabset2</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>
@@ -193,6 +206,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
+                <identifier>runtime_sales_activities_activityPanel</identifier>
             </componentInstance>
         </itemInstances>
         <name>activityTabContent</name>

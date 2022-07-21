@@ -4,6 +4,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Vlocity Health Insurance</label>
     <logo>vlocity_ins__VlocityResources/vlocity_ins__VlocityHealthInsurance.png</logo>
     <tabs>standard-Account</tabs>

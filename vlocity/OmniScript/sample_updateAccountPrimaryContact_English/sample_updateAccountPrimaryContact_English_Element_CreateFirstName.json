@@ -1,28 +1,26 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "CreateFirstName",
-    "OmniProcessId": {
-        "Name": "Sample Update Account Primary Contact with Weather",
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Sample Update Account Primary Contact 4-11 Weather",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/updateAccountPrimaryContact/English",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "ParentElementId": {
-        "Name": "BlkCreatePriContact",
-        "OmniProcessId": {
-            "Name": "Sample Update Account Primary Contact with Weather",
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Sample Update Account Primary Contact 4-11 Weather",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
-            "VlocityMatchingRecordSourceKey": "OmniProcess/sample/updateAccountPrimaryContact/English",
-            "VlocityRecordSObjectType": "OmniProcess"
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
         },
+        "Name": "BlkCreatePriContact",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/sample/updateAccountPrimaryContact/English/BlkCreatePriContact",
-        "VlocityRecordSObjectType": "OmniProcessElement"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English/BlkCreatePriContact",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
     },
-    "ParentElementName": "BlkCreatePriContact",
-    "ParentElementType": "Block",
-    "PropertySetConfig": {
+    "%vlocity_namespace%__ParentElementName__c": "BlkCreatePriContact",
+    "%vlocity_namespace%__ParentElementType__c": "Block",
+    "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
         "accessibleInFutureSteps": false,
         "conditionType": "Hide if False",
@@ -47,8 +45,10 @@
         "show": null,
         "showInputWidth": false
     },
-    "Type": "Text",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "Text",
+    "Name": "CreateFirstName",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/updateAccountPrimaryContact/English/CreateFirstName"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English/CreateFirstName"
 }

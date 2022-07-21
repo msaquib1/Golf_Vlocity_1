@@ -1,32 +1,28 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "DRChangeContactTA",
-    "OmniProcessId": {
-        "Name": "Sample Update Account Primary Contact with Weather",
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
+        "Name": "Sample Update Account Primary Contact 4-11 Weather",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/updateAccountPrimaryContact/English",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "ParentElementId": {
-        "Name": "TAChangeContact",
-        "OmniProcessId": {
-            "Name": "Sample Update Account Primary Contact with Weather",
+    "%vlocity_namespace%__ParentElementId__c": {
+        "%vlocity_namespace%__OmniScriptId__c": {
+            "Name": "Sample Update Account Primary Contact 4-11 Weather",
             "VlocityDataPackType": "VlocityMatchingKeyObject",
-            "VlocityMatchingRecordSourceKey": "OmniProcess/sample/updateAccountPrimaryContact/English",
-            "VlocityRecordSObjectType": "OmniProcess"
+            "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
         },
+        "Name": "TAChangeContact",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/sample/updateAccountPrimaryContact/English/TAChangeContact",
-        "VlocityRecordSObjectType": "OmniProcessElement"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English/TAChangeContact",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c"
     },
-    "ParentElementName": "TAChangeContact",
-    "ParentElementType": "Type Ahead Block",
-    "PropertySetConfig": {
+    "%vlocity_namespace%__ParentElementName__c": "TAChangeContact",
+    "%vlocity_namespace%__ParentElementType__c": "Type Ahead Block",
+    "%vlocity_namespace%__PropertySet__c": {
         "HTMLTemplateId": "",
-        "bundle": "teamChangePriContactTAData",
-        "businessCategory": "",
-        "businessEvent": "",
+        "bundle": "sampleChangePriContactTA",
         "controlWidth": 12,
         "dataRaptor Input Parameters": [
             {
@@ -38,7 +34,7 @@
                 "inputParam": "LookupKey"
             }
         ],
-        "enableActionMessage": false,
+        "disOnTplt": false,
         "enableDefaultAbort": false,
         "errorMessage": {
             "custom": [
@@ -49,13 +45,11 @@
         "failureAbortMessage": "Are you sure?",
         "failureGoBackLabel": "Go Back",
         "failureNextLabel": "Continue",
-        "ignoreCache": false,
         "inProgressMessage": "In Progress",
-        "label": "DRChangeContactTA",
+        "label": "DataRaptorExtractAction2",
         "message": {
         },
         "postMessage": "Done",
-        "pubsub": false,
         "redirectNextLabel": "Next",
         "redirectNextWidth": 3,
         "redirectPageName": "",
@@ -67,15 +61,17 @@
         "responseJSONPath": "",
         "show": null,
         "showPersistentComponent": [
-            true,
+            false,
             false
         ],
         "ssm": false,
         "validationRequired": "Step",
         "wpm": false
     },
-    "Type": "DataRaptor Extract Action",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DataRaptor Extract Action",
+    "Name": "DRChangeContactTA",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/updateAccountPrimaryContact/English/DRChangeContactTA"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/updateAccountPrimaryContact/English/DRChangeContactTA"
 }

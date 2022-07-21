@@ -12,6 +12,7 @@
                     <value>&lt;p&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;OmniStudio Training Playground for Build Guided Experiences with OmniStudio&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Template Version: June 6, 2021&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Installed Package: INS v890.283&lt;/span&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

@@ -1,14 +1,12 @@
 {
-    "IsActive": true,
-    "IsOmniScriptEmbeddable": false,
-    "Name": "DRGetCaseDetails",
-    "OmniProcessId": {
+    "%vlocity_namespace%__Active__c": true,
+    "%vlocity_namespace%__OmniScriptId__c": {
         "Name": "Sample Get Case Details",
         "VlocityDataPackType": "VlocityMatchingKeyObject",
-        "VlocityMatchingRecordSourceKey": "OmniProcess/sample/getCaseDetails/Procedure",
-        "VlocityRecordSObjectType": "OmniProcess"
+        "VlocityMatchingRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/getCaseDetails/Procedure",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c"
     },
-    "PropertySetConfig": {
+    "%vlocity_namespace%__PropertySet__c": {
         "actionMessage": "",
         "additionalInput": {
         },
@@ -31,7 +29,7 @@
         "ignoreCache": false,
         "label": "DataRaptorTurboAction1",
         "responseJSONNode": "",
-        "responseJSONPath": "Case|1",
+        "responseJSONPath": "",
         "returnOnlyAdditionalOutput": false,
         "returnOnlyFailureResponse": false,
         "sendJSONNode": "",
@@ -40,8 +38,10 @@
         "show": null,
         "useFormulas": true
     },
-    "Type": "DataRaptor Turbo Action",
+    "%vlocity_namespace%__ReusableOmniScript__c": false,
+    "%vlocity_namespace%__Type__c": "DataRaptor Turbo Action",
+    "Name": "DRGetCaseDetails",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcessElement",
-    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/sample/getCaseDetails/Procedure/DRGetCaseDetails"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Element__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Element__c/%vlocity_namespace%__OmniScript__c/sample/getCaseDetails/Procedure/DRGetCaseDetails"
 }

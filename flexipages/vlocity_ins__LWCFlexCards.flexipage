@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>vlocity_ins:vlocityFlexCardHome</componentName>
+                <identifier>vlocityFlexCardHome</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

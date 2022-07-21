@@ -1,4 +1,128 @@
-<template><div class="slds-card slds-p-around_medium slds-size_1-of-1">
-                        There is no active instance of <br>
-                        <b>CARD</b> sampleWeather
-                    </div></template>
+<template>
+            <div class="slds-grid slds-wrap slds-is-relative">
+            <div if:false={cardLoaded} class="slds-is-absolute vloc-loader_override" style="height: 100%; width: 100%; min-height:50px; background: white; z-index: 99;">
+  <div>
+   <vlocity_ins-spinner
+      variant="brand"
+      alternative-text="Loading content..."
+      size="medium"
+      theme="slds"
+      ></vlocity_ins-spinner>
+  </div>
+</div>
+            <template if:false={hasPermission}>
+              You don't have required permissions to view this card.
+            </template>
+            <template if:true={hasPermission}>
+              <template if:true={hasRecords}>
+                        <template for:each={_records} for:item="record" for:index="rindex">
+                            <vlocity_ins-flex-card-state key={record.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col   slds-size_12-of-12 " style=""><vlocity_ins-flex-img   card={card}  record={record}  size="large"  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0685f000001MEyVAA2","alternativeText":"Image description","document":{"label":"weatherbannerAlert (Version:1)","value":"/sfc/servlet.shepherd/version/download/0685f000001MEyVAA2","title":"weatherbannerAlert","Id":"0685f000001MEyVAA2","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col  slds-p-bottom_small  slds-size_12-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_large%20slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3E%3Cstrong%3E%7BCityState%7D%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ECondition%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%7BCondition%7D%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ETEMPERATURE%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%7BTempF%7D%20&deg;F%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-text-align_right slds-p-top_small slds-m-right_x-small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1607973589218","type":"Custom","displayName":"weather.com","vlocityIcon":"action:web_link","openUrlIn":"New Tab/Window","targetType":"Web Page","Web Page":{"targetName":"https://weather.com"}}'  icon-color="#FFFFFF"  context-id="\{AcccountId}"  display-as-button="true"  button-variant="destructive"  theme="slds" ></vlocity_ins-action>
+      </div><div class="slds-col  slds-text-align_left slds-p-top_small slds-m-left_x-small  slds-size_5-of-12  " style="     : #ccc 1px solid; 
+         ">
+    <vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1608229988745","type":"Flyout","displayName":"Get 5-Day Forecast","vlocityIcon":"standard:forecasts","openUrlIn":"Current Window","layoutType":"lightning","flyoutType":"childCard","openFlyoutIn":"Modal","cardNode":"","cardName":"sampleWeatherForecast","flyoutLwc":"sampleWeatherForecast"}'  icon-color="#D02D2D"  context-id="\{AcccountId}"  display-as-button="true"  button-variant="text-destructive"  theme="slds"><div slot="flyout">  <c-cf-sample-weather-forecast   records={_records}  parent-record={record}  record-id={recordId}  parent-attribute='\{}'   ></c-cf-sample-weather-forecast></div></vlocity_ins-action>
+    </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state><vlocity_ins-flex-card-state key={record.uniqueKey} data-recordid={record.Id} record={record} data-statue="true"  data-index="1" data-rindex={rindex} class="cf-vlocity-state-1 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col   slds-size_12-of-12 " style=""><vlocity_ins-flex-img   card={card}  record={record}  size="large"  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0685f000001MEyUAA2","alternativeText":"Image description","document":{"label":"weatherbannerActive (Version:1)","value":"/sfc/servlet.shepherd/version/download/0685f000001MEyUAA2","title":"weatherbannerActive","Id":"0685f000001MEyUAA2","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col  slds-p-bottom_small  slds-size_12-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_large%20slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#34495e;%22%3E%3Cstrong%3E%7BCityState%7D%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ECondition%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#34495e;%22%3E%7BCondition%7D%3C/span%3E%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ETEMPERATURE%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#34495e;%22%3E%7BTempF%7D%20&deg;F%3C/span%3E%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-text-align_center slds-p-top_small  slds-size_12-of-12  " style="             ">
+    <vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1608230061856","type":"Flyout","displayName":"Get 5-Day Forecast","vlocityIcon":"standard:forecasts","openUrlIn":"Current Window","layoutType":"lightning","flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"sampleWeatherForecast","flyoutLwc":"sampleWeatherForecast"}'  icon-color="#68B5E6"  context-id="\{AcccountId}"  display-as-button="true"  button-variant="outline-brand"  theme="slds"><div slot="flyout">  <c-cf-sample-weather-forecast   records={_records}  parent-record={record}  record-id={recordId}  parent-attribute='\{}'   ></c-cf-sample-weather-forecast></div></vlocity_ins-action>
+    </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                        </template>
+                      </template>
+                      <template if:false={hasRecords}>
+                            <vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="0" data-rindex={rindex} class="cf-vlocity-state-0 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col   slds-size_12-of-12 " style=""><vlocity_ins-flex-img   card={card}  record={record}  size="large"  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0685f000001MEyVAA2","alternativeText":"Image description","document":{"label":"weatherbannerAlert (Version:1)","value":"/sfc/servlet.shepherd/version/download/0685f000001MEyVAA2","title":"weatherbannerAlert","Id":"0685f000001MEyVAA2","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col  slds-p-bottom_small  slds-size_12-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_large%20slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3E%3Cstrong%3E%7BCityState%7D%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ECondition%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%7BCondition%7D%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ETEMPERATURE%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#e03e2d;%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%22%3E%7BTempF%7D%20&deg;F%3C/span%3E%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-text-align_right slds-p-top_small slds-m-right_x-small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1607973589218","type":"Custom","displayName":"weather.com","vlocityIcon":"action:web_link","openUrlIn":"New Tab/Window","targetType":"Web Page","Web Page":{"targetName":"https://weather.com"}}'  icon-color="#FFFFFF"  context-id="\{AcccountId}"  display-as-button="true"  button-variant="destructive"  theme="slds" ></vlocity_ins-action>
+      </div><div class="slds-col  slds-text-align_left slds-p-top_small slds-m-left_x-small  slds-size_5-of-12  " style="     : #ccc 1px solid; 
+         ">
+    <vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1608229988745","type":"Flyout","displayName":"Get 5-Day Forecast","vlocityIcon":"standard:forecasts","openUrlIn":"Current Window","layoutType":"lightning","flyoutType":"childCard","openFlyoutIn":"Modal","cardNode":"","cardName":"sampleWeatherForecast","flyoutLwc":"sampleWeatherForecast"}'  icon-color="#D02D2D"  context-id="\{AcccountId}"  display-as-button="true"  button-variant="text-destructive"  theme="slds"><div slot="flyout">  <c-cf-sample-weather-forecast   records={_records}  parent-record={record}  record-id={recordId}  parent-attribute='\{}'   ></c-cf-sample-weather-forecast></div></vlocity_ins-action>
+    </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state><vlocity_ins-flex-card-state  record={record} data-statue="false"  data-index="1" data-rindex={rindex} class="cf-vlocity-state-1 cf-vlocity-state slds-size_12-of-12"  tracking-obj={_childCardTrackingObj} >
+      <div if:true={cardLoaded} class="slds-grid slds-wrap slds-card slds-p-around_x-small slds-m-bottom_x-small" style="">
+          <div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col   slds-size_12-of-12 " style=""><vlocity_ins-flex-img   card={card}  record={record}  size="large"  extraclass="slds-align_absolute-center"  state-img='\{"imgsrc":"/sfc/servlet.shepherd/version/download/0685f000001MEyUAA2","alternativeText":"Image description","document":{"label":"weatherbannerActive (Version:1)","value":"/sfc/servlet.shepherd/version/download/0685f000001MEyUAA2","title":"weatherbannerActive","Id":"0685f000001MEyUAA2","attachmentType":"ContentVersion"}}'  theme="slds"  ></vlocity_ins-flex-img>
+      </div>
+        </div></vlocity_ins-block>
+    </div><div class="slds-col   slds-p-around_x-small slds-size_12-of-12 " style="">
+    <vlocity_ins-block  card={card}  record={record}  label="Block"  collapsible="false"  collapsed-by-default="false"  theme="slds" ><div class="slds-grid slds-wrap">
+          <div class="slds-col  slds-p-bottom_small  slds-size_12-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-heading_large%20slds-text-align_center%22%3E%3Cspan%20style=%22color:%20#34495e;%22%3E%3Cstrong%3E%7BCityState%7D%3C/strong%3E%3C/span%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ECondition%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#34495e;%22%3E%7BCondition%7D%3C/span%3E%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-p-bottom_small  slds-size_6-of-12  " style="     : #ccc 1px solid; 
+         "><vlocity_ins-output-field     card={card}  record={record}  merge-field="%3Cdiv%20class=%22slds-text-title_caps%20slds-text-align_center%22%3E%3Cspan%20style=%22font-size:%2010pt;%20color:%20#34495e;%22%3ETEMPERATURE%3C/span%3E%3C/div%3E%0A%3Cdiv%20class=%22slds-text-align_center%22%3E%3Cstrong%3E%3Cspan%20style=%22font-size:%2012pt;%20color:%20#34495e;%22%3E%7BTempF%7D%20&deg;F%3C/span%3E%3C/strong%3E%3C/div%3E"  theme="slds"  ></vlocity_ins-output-field>
+      </div><div class="slds-col  slds-text-align_center slds-p-top_small  slds-size_12-of-12  " style="             ">
+    <vlocity_ins-action  tracking-obj={_childCardTrackingObj}   record={record}  card={card}  state-obj={record}  state-action='\{"id":"flex-action-1608230061856","type":"Flyout","displayName":"Get 5-Day Forecast","vlocityIcon":"standard:forecasts","openUrlIn":"Current Window","layoutType":"lightning","flyoutType":"childCard","openFlyoutIn":"Modal","cardName":"sampleWeatherForecast","flyoutLwc":"sampleWeatherForecast"}'  icon-color="#68B5E6"  context-id="\{AcccountId}"  display-as-button="true"  button-variant="outline-brand"  theme="slds"><div slot="flyout">  <c-cf-sample-weather-forecast   records={_records}  parent-record={record}  record-id={recordId}  parent-attribute='\{}'   ></c-cf-sample-weather-forecast></div></vlocity_ins-action>
+    </div>
+        </div></vlocity_ins-block>
+    </div>
+        </div>
+      </vlocity_ins-flex-card-state>
+                      </template>
+            </template>
+            <template if:true={hasError}>
+            {error}
+            </template>
+            
+      <vlocity_ins-action action-wrapperclass="slds-hide" re-render-flyout class="action-trigger slds-col" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+      
+      </vlocity_ins-action>
+  
+            <vlocity_ins-action class="execute-action" re-render-flyout action-wrapperclass="slds-hide" onupdateos={updateOmniscript} onsetvalue={updateAction}>
+            
+            </vlocity_ins-action>
+            </div>
+          </template>

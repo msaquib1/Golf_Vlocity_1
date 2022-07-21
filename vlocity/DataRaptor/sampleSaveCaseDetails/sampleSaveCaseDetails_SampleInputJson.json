@@ -1,9 +1,19 @@
 {
-    "CreatedDate": "2021-11-03T20:55:43.000Z",
-    "Description": "Customer is looking for an update on timeline for on hold shipment.",
-    "Id": "5005f000001uUl1AAE",
-    "Status": "New",
-    "Subject": "Shipment on hold update request",
-    "UpsertSObjectType": "Case",
-    "UpsertSuccess": true
+    "ContextId": "5001U000005GO08QAG",
+    "StpCaseDetails": {
+        "CaseSubject": null
+    },
+    "id": "a291U0000003wN9QAI",
+    "isdtp": "p1",
+    "layout": "lightning",
+    "sfdcIFrameHost": "web",
+    "sfdcIFrameOrigin": "https://vso1--vlocity-cmt.visualforce.com",
+    "timeStamp": "2019-04-29T21:20:49.947Z",
+    "userCurrencyCode": "USD",
+    "userId": "0051U000003tEM5QAM",
+    "userName": "vso1@cme.edu",
+    "userProfile": "System Administrator",
+    "userTimeZone": -420,
+    "vlcPersistentComponent": {
+    }
 }

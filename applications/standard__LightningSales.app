@@ -9,7 +9,7 @@
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>standard-WaveHome</tabs>
+    <tabs>Template_Version</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Quote</tabs>
     <tabs>standard-Lead</tabs>

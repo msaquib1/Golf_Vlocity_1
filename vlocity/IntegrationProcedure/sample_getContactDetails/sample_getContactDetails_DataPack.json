@@ -1,24 +1,23 @@
 {
-    "CustomJavaScript": "sample_getContactDetails_SampleInput.json",
-    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
-    "IsIntegrationProcedure": true,
-    "IsMetadataCacheDisabled": false,
-    "IsOmniScriptEmbeddable": false,
-    "IsTestProcedure": false,
-    "IsWebCompEnabled": false,
-    "Language": "Procedure",
-    "Name": "Sample Get Contact Details",
-    "OmniProcessElement": [
+    "%vlocity_namespace%__CustomJavaScript__c": "sample_getContactDetails_SampleInput.json",
+    "%vlocity_namespace%__DisableMetadataCache__c": false,
+    "%vlocity_namespace%__ElementTypeToHTMLTemplateList__c": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "%vlocity_namespace%__Element__c": [
         "sample_getContactDetails_Element_DRGetContactDetails.json",
         "sample_getContactDetails_Element_ResponseAction.json"
     ],
-    "OmniProcessKey": "sample_getContactDetails",
-    "OmniProcessType": "Integration Procedure",
-    "PropertySetConfig": "sample_getContactDetails_PropertySetConfig.json",
-    "SubType": "getContactDetails",
-    "Type": "sample",
+    "%vlocity_namespace%__IsLwcEnabled__c": false,
+    "%vlocity_namespace%__IsProcedure__c": true,
+    "%vlocity_namespace%__IsReusable__c": false,
+    "%vlocity_namespace%__IsTest__c": false,
+    "%vlocity_namespace%__Language__c": "Procedure",
+    "%vlocity_namespace%__OmniProcessType__c": "Integration Procedure",
+    "%vlocity_namespace%__ProcedureKey__c": "sample_getContactDetails",
+    "%vlocity_namespace%__PropertySet__c": "sample_getContactDetails_PropertySet.json",
+    "%vlocity_namespace%__SubType__c": "getContactDetails",
+    "%vlocity_namespace%__Type__c": "sample",
+    "Name": "Sample Get Contact Details",
     "VlocityDataPackType": "SObject",
-    "VlocityRecordSObjectType": "OmniProcess",
-    "VlocityRecordSourceKey": "OmniProcess/sample/getContactDetails/Procedure",
-    "WebComponentKey": "e265a7e1-1140-63ac-2629-7d35e9ddcc7a"
+    "VlocityRecordSObjectType": "%vlocity_namespace%__OmniScript__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__OmniScript__c/sample/getContactDetails/Procedure"
 }
